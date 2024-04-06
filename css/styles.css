@@ -1179,3 +1179,64 @@ p {
         margin-bottom: 48px;
     }
 }
+
+/* _________________________________SECOND SECTION STYLES__________________________*/
+
+@media screen and (min-width: 768px) {
+    .third-title {
+        text-align: start;
+    }
+
+    .advantages {
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .example {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .third-title:last-child {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .second-section {
+        padding: 120px 0;
+    }
+
+    .third-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+
+    .text-description {
+        font-weight: 400;
+    }
+
+    .advantages {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .example {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 264px;
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+    }
+}
