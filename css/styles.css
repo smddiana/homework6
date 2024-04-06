@@ -1097,7 +1097,49 @@ p {
 }
 
 
+/*______________________________________Modal window styles_________________________________*/
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container-modal-dialog-paragraph {
+        max-width: 360px;
+    }
 
+    .contact-form {
+        max-width: 360px;
+    }
+
+    .input-user-name {
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .input-user-name {
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .input-user-name {
+        border-color: #4d5ae5;
+        outline: transparent;
+    }
+
+    .input-user-name:focus+.icons-modal-svg {
+        fill: #4d5ae5;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .textarea-modal-comment:focus {
+        border-color: #4d5ae5;
+        outline: transparent;
+    }
+}
 
 
 
