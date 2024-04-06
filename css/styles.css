@@ -817,7 +817,7 @@ p {
     margin: 0 auto;
 }
 
-/* ADAPTIVE STYLES HOMEWORK 6 */
+/* ________________________________________ADAPTIVE STYLES HOMEWORK 6_______________________________________ */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -1238,5 +1238,135 @@ p {
         height: 112px;
         background-color: #f4f4fd;
         border-radius: 4px;
+    }
+}
+
+/*_____________________________________________SECTION 3 STYLES__________________________________*/
+
+@media screen and (min-width: 768px) {
+    .third-section {
+        padding: 96px auto;
+    }
+
+    .list-cards {
+        gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .third-section {
+        padding: 120px 0;
+    }
+}
+
+/*______________________________________________OUR PORTFOLIO SECTION 4____________________________*/
+
+@media screen and (min-width: 768px) {
+    .list-portfolio{
+        column-gap: 24px;
+        row-gap: 72px;
+        min-width: 356px;
+    }
+
+    .portfolio-cards {
+        width: 356px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .our-portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .list-portfolio {
+        row-gap: 48px;
+        min-width: 360px;
+    }
+
+    .po-discription {
+        border: #e7e9fc;
+        border-top: none;
+    }
+
+    .portfolio-cards {
+        width: 360px;
+        border: 1px solid #e7e9fc;
+    }
+}
+
+
+/*_________________________________FOOTER___________________________________*/
+
+@media screen and (min-width: 768px) {
+    .logo-footer {
+        text-align: start;
+    }
+
+    .footer-item .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .logo-paragraph {
+        width: 264px;
+        margin-right: 24px;
+        margin-left: 96px;
+    }
+
+    .logo-footer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .social-links-box {
+        min-width: 208px;
+    }
+
+    .social-media-text {
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sbscr-title {
+        text-align: left;
+    }
+
+    .subscribe-footer {
+        margin-left: 96px;
+    }
+
+    .sbscr-input-btn {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .footer-item {
+        padding: 100px 0;
+    }
+
+    .logo-paragraph {
+        margin-left: 0;
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+
+    .social-links-box {
+        margin-right: 80px;
+        margin-bottom: 0;
+    }
+
+    .subscribe-footer {
+        margin-left: 0;
+    }
+
+    .btn-footer {
+        margin-right: 0;
     }
 }
