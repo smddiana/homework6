@@ -1301,72 +1301,72 @@ p {
 /*_________________________________FOOTER___________________________________*/
 
 @media screen and (min-width: 768px) {
-    .logo-footer {
+    .logo-a {
         text-align: start;
     }
 
-    .footer-item .footer-container {
+    .footer .contfooter {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
     }
 
-    .logo-paragraph {
+    .logo-a {
         width: 264px;
         margin-right: 24px;
         margin-left: 96px;
     }
 
-    .logo-footer {
+    .logo-a {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .social-links-box {
+    .social-container{
         min-width: 208px;
     }
 
-    .social-media-text {
+    .soc-text {
         text-align: left;
         padding-left: 0;
         padding-right: 0;
     }
 
-    .sbscr-title {
+    .footer-form-text {
         text-align: left;
     }
 
-    .subscribe-footer {
+    .footer-form-container {
         margin-left: 96px;
     }
 
-    .sbscr-input-btn {
+    .footer-form {
         display: flex;
         gap: 24px;
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .footer-item {
+    .footer {
         padding: 100px 0;
     }
 
-    .logo-paragraph {
+    .classfooter {
         margin-left: 0;
         margin-right: 120px;
         margin-bottom: 0;
     }
 
-    .social-links-box {
+    .social-container {
         margin-right: 80px;
         margin-bottom: 0;
     }
 
-    .subscribe-footer {
+    .footer-form-container {
         margin-left: 0;
     }
 
-    .btn-footer {
+    .form-button-footer {
         margin-right: 0;
     }
 }
